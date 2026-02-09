@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Plant & Security</title>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database.js"></script>
+</head>
+<body>
+  <h2>🌱 Smart Monitor Dashboard</h2>
+
+  <div id="soil">Soil: --</div>
+  <div id="pir">Motion: --</div>
+  <div id="alert">Status: --</div>
+
+  <button onclick="muteOn()">🔇 Mute</button>
+  <button onclick="muteOff()">🔊 Unmute</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
